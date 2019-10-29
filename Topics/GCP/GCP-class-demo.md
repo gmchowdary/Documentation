@@ -14,6 +14,7 @@
 1. Run Dummy Application
 2. Run below commands
 ```
+#!/bin/bash
 npm install sails -g
 git clone https://github.com/gmchowdary/gcp-sails-demo.git
 cd gcp-sails-demo
@@ -41,6 +42,7 @@ sails lift --port 2019 --host 0.0.0.0
 1. Create VM
 2. Execute below Commands GCP ssh console
 ```
+#!/bin/bash
 sudo apt update
 sudo apt install -y apache2
 echo $(date) > /index.html
@@ -55,6 +57,7 @@ service apache2 start
 1. Create instance template
 2. Confuguration
 ```
+#!/bin/bash
 sudo apt update
 sudo apt install -y apache2
 echo $(date) > /index.html
@@ -71,6 +74,7 @@ service apache2 start
 1. Impliment auto scaling
 2. Script for Auto Scaling
 ```
+#!/bin/bash
 sudo apt update
 sudo apt install -y stress
 sudo stress --cpu  1 --timeout 60
@@ -138,6 +142,7 @@ VM Instance
 
 ## Task 11: Load Balencing
 ```
+#!/bin/bash
 sudo apt update
 sudo apt install -y apache2
 echo $(date) > /index.html
