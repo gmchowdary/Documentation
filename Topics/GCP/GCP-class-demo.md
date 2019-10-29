@@ -43,8 +43,8 @@ sails lift --port 2019 --host 0.0.0.0
 ```
 sudo apt update
 sudo apt install -y apache2
-echo $(date) > index.html
-sudo mv ~/index.html /var/www/html
+echo $(date) > /index.html
+sudo mv /index.html /var/www/html
 service apache2 start
 ```
 3. show output on console
@@ -57,8 +57,8 @@ service apache2 start
 ```
 sudo apt update
 sudo apt install -y apache2
-echo $(date) > index.html
-sudo mv ~/index.html /var/www/html
+echo $(date) > /index.html
+sudo mv /index.html /var/www/html
 service apache2 start
 ```
 3. Launch Instance
@@ -125,8 +125,8 @@ VM Instance
 			- sudo apt update
 			- sudo apt install -y apache2
 			- service apache2 start
-			- echo $(date) > index.html
-			- sudo mv ~/index.html /var/www/html
+			- echo $(date) > /index.html
+			- sudo mv /index.html /var/www/html
 		- execute below commands
 			- curl localhost
 		- Try pasting Public IP on Browser does not work
@@ -140,8 +140,8 @@ VM Instance
 ```
 sudo apt update
 sudo apt install -y apache2
-echo $(date) > index.html
-sudo mv ~/index.html /var/www/html
+echo $(date) > /index.html
+sudo mv /index.html /var/www/html
 service apache2 start
 ```
 
