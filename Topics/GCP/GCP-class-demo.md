@@ -42,7 +42,7 @@ sails lift --port 2019 --host 0.0.0.0
 2. Execute below Commands GCP ssh console
 ```
 sudo apt update
-sudo apt install apache2
+sudo apt install -y apache2
 echo $(date) > index.html
 sudo mv ~/index.html /var/www/html
 service apache2 start
@@ -56,7 +56,7 @@ service apache2 start
 2. Confuguration
 ```
 sudo apt update
-sudo apt install apache2
+sudo apt install -y apache2
 echo $(date) > index.html
 sudo mv ~/index.html /var/www/html
 service apache2 start
@@ -72,7 +72,7 @@ service apache2 start
 2. Script for Auto Scaling
 ```
 sudo apt update
-sudo apt install stress
+sudo apt install -y stress
 sudo stress --cpu  1 --timeout 60
 ```
 
@@ -123,7 +123,7 @@ VM Instance
 		- GCP-SSH into VM
 		- Install Apache2
 			- sudo apt update
-			- sudo apt install apache2
+			- sudo apt install -y apache2
 			- service apache2 start
 			- echo $(date) > index.html
 			- sudo mv ~/index.html /var/www/html
@@ -139,7 +139,7 @@ VM Instance
 ## Task 11: Load Balencing
 ```
 sudo apt update
-sudo apt install apache2
+sudo apt install -y apache2
 echo $(date) > index.html
 sudo mv ~/index.html /var/www/html
 service apache2 start
@@ -151,7 +151,7 @@ service apache2 start
 3. Install redis
 ```
 sudo apt update
-sudo apt install redis-server
+sudo apt install -y redis-server
 ```
 4. connect to redis
 ```
