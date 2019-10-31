@@ -18,6 +18,7 @@
 npm install sails -g
 git clone https://github.com/gmchowdary/gcp-sails-demo.git
 cd gcp-sails-demo
+npm install --save
 sails lift --port 2019 --host 0.0.0.0
 ```
 3. Preview on web console
